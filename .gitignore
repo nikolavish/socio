@@ -1,0 +1,32 @@
+# Node.js
+/server/node_modules
+
+# Nuxt.js
+/client/.nuxt
+/client/dist
+
+# Build files
+/client/.server
+/server/dist
+/server/src/public/*
+/server/src/storage/*
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment files
+/server/.env
+/client/.env
+/client/.env.local
+/client/.env.*.local
+
+# Editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+.DS_Store
